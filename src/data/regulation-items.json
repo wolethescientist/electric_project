@@ -1,0 +1,488 @@
+[
+  {
+    "id": "EM-001",
+    "name": "Single-Phase Residential Meters",
+    "category": "Residential",
+    "status": "compliant",
+    "complianceRate": 94.2,
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "riskLevel": "low",
+    "description": "Standard single-phase electricity meters for residential properties up to 100A service capacity",
+    "criteria": [
+      {
+        "id": "EM-001-C1",
+        "title": "Accuracy Standards",
+        "description": "Meter accuracy must comply with IEC 62053-21 Class 1 standards",
+        "priority": "critical",
+        "category": "Technical Specifications",
+        "requirements": [
+          "Accuracy class 1.0 for active energy measurement",
+          "Temperature coefficient ≤ 0.02%/°C",
+          "Voltage influence ≤ 0.5% for ±10% voltage variation"
+        ],
+        "lastReviewed": "2024-01-10T09:00:00Z",
+        "documentLinks": ["IEC-62053-21.pdf", "accuracy-test-procedures.pdf"]
+      },
+      {
+        "id": "EM-001-C2",
+        "title": "Display Requirements",
+        "description": "LCD display must show current consumption and cumulative readings",
+        "priority": "medium",
+        "category": "User Interface",
+        "requirements": [
+          "Minimum 6-digit LCD display",
+          "Backlight functionality for low-light conditions",
+          "Display refresh rate ≤ 1 second"
+        ],
+        "lastReviewed": "2024-01-05T14:15:00Z",
+        "documentLinks": ["display-standards.pdf", "ui-requirements.pdf"]
+      },
+      {
+        "id": "EM-001-C3",
+        "title": "Installation Safety",
+        "description": "Safety requirements for residential meter installation",
+        "priority": "high",
+        "category": "Safety Standards",
+        "requirements": [
+          "IP54 ingress protection minimum",
+          "Flame retardant housing materials",
+          "Proper grounding connection points"
+        ],
+        "lastReviewed": "2024-01-08T16:30:00Z",
+        "documentLinks": ["safety-installation.pdf", "grounding-specs.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-002",
+    "name": "Three-Phase Commercial Meters",
+    "category": "Commercial",
+    "status": "compliant",
+    "complianceRate": 89.7,
+    "lastUpdated": "2024-01-12T14:20:00Z",
+    "riskLevel": "medium",
+    "description": "Three-phase electricity meters for commercial establishments with service capacity 100A-400A",
+    "criteria": [
+      {
+        "id": "EM-002-C1",
+        "title": "Load Profile Recording",
+        "description": "Mandatory load profile recording capabilities for demand management",
+        "priority": "high",
+        "category": "Data Management",
+        "requirements": [
+          "15-minute interval recording minimum",
+          "30-day data storage capacity",
+          "Remote data retrieval capability"
+        ],
+        "lastReviewed": "2024-01-08T11:30:00Z",
+        "documentLinks": ["load-profile-standards.pdf", "data-retention-policy.pdf"]
+      },
+      {
+        "id": "EM-002-C2",
+        "title": "Communication Protocols",
+        "description": "Support for standard communication protocols for commercial applications",
+        "priority": "critical",
+        "category": "Communication",
+        "requirements": [
+          "Modbus RTU protocol support",
+          "RS-485 communication interface",
+          "Ethernet connectivity option"
+        ],
+        "lastReviewed": "2024-01-12T09:45:00Z",
+        "documentLinks": ["modbus-specification.pdf", "ethernet-requirements.pdf"]
+      },
+      {
+        "id": "EM-002-C3",
+        "title": "Power Quality Monitoring",
+        "description": "Basic power quality monitoring for commercial installations",
+        "priority": "medium",
+        "category": "Power Quality",
+        "requirements": [
+          "Voltage and current harmonic measurement",
+          "Power factor monitoring",
+          "Frequency deviation detection"
+        ],
+        "lastReviewed": "2024-01-06T13:20:00Z",
+        "documentLinks": ["power-quality-spec.pdf", "harmonic-analysis.pdf"]
+      },
+      {
+        "id": "EM-002-C4",
+        "title": "Billing Integration",
+        "description": "Integration capabilities with commercial billing systems",
+        "priority": "low",
+        "category": "Billing Features",
+        "requirements": [
+          "Multi-rate tariff support",
+          "Demand billing calculations",
+          "Export data in standard formats"
+        ],
+        "lastReviewed": "2024-01-04T10:15:00Z",
+        "documentLinks": ["billing-integration.pdf", "tariff-calculations.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-003",
+    "name": "Industrial High-Voltage Meters",
+    "category": "Industrial",
+    "status": "under-review",
+    "complianceRate": 76.3,
+    "lastUpdated": "2024-01-18T16:45:00Z",
+    "riskLevel": "high",
+    "description": "High-voltage meters for industrial facilities above 1kV service voltage",
+    "criteria": [
+      {
+        "id": "EM-003-C1",
+        "title": "Safety Isolation",
+        "description": "Enhanced safety isolation requirements for high-voltage applications",
+        "priority": "critical",
+        "category": "Safety Standards",
+        "requirements": [
+          "Isolation voltage rating ≥ 4kV",
+          "Arc fault detection capability",
+          "Emergency disconnect functionality"
+        ],
+        "lastReviewed": "2024-01-15T13:20:00Z",
+        "documentLinks": ["hv-safety-standards.pdf", "isolation-testing.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-004",
+    "name": "Smart Grid Compatible Meters",
+    "category": "Smart Grid",
+    "status": "compliant",
+    "complianceRate": 91.8,
+    "lastUpdated": "2024-01-20T08:15:00Z",
+    "riskLevel": "low",
+    "description": "Advanced metering infrastructure compatible smart meters with two-way communication",
+    "criteria": [
+      {
+        "id": "EM-004-C1",
+        "title": "Communication Protocols",
+        "description": "Support for standardized smart grid communication protocols",
+        "priority": "high",
+        "category": "Communication",
+        "requirements": [
+          "DLMS/COSEM protocol support",
+          "IPv6 network compatibility",
+          "End-to-end encryption (AES-256)"
+        ],
+        "lastReviewed": "2024-01-18T10:00:00Z",
+        "documentLinks": ["dlms-cosem-spec.pdf", "encryption-standards.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-005",
+    "name": "Prepaid Energy Meters",
+    "category": "Prepaid",
+    "status": "pending",
+    "complianceRate": 82.4,
+    "lastUpdated": "2024-01-14T12:30:00Z",
+    "riskLevel": "medium",
+    "description": "Prepaid electricity meters with credit management and tamper detection",
+    "criteria": [
+      {
+        "id": "EM-005-C1",
+        "title": "Credit Management",
+        "description": "Secure credit loading and balance management system",
+        "priority": "critical",
+        "category": "Financial Security",
+        "requirements": [
+          "STS (Standard Transfer Specification) compliance",
+          "Tamper-evident credit storage",
+          "Low credit warning system"
+        ],
+        "lastReviewed": "2024-01-12T15:45:00Z",
+        "documentLinks": ["sts-specification.pdf", "tamper-detection.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-006",
+    "name": "Multi-Tariff Time-of-Use Meters",
+    "category": "Time-of-Use",
+    "status": "compliant",
+    "complianceRate": 88.1,
+    "lastUpdated": "2024-01-16T09:20:00Z",
+    "riskLevel": "low",
+    "description": "Meters supporting multiple tariff structures based on time-of-use pricing",
+    "criteria": [
+      {
+        "id": "EM-006-C1",
+        "title": "Tariff Programming",
+        "description": "Flexible tariff programming and seasonal adjustment capabilities",
+        "priority": "high",
+        "category": "Billing Features",
+        "requirements": [
+          "Minimum 8 tariff periods per day",
+          "Seasonal tariff switching",
+          "Holiday calendar programming"
+        ],
+        "lastReviewed": "2024-01-14T11:15:00Z",
+        "documentLinks": ["tariff-programming.pdf", "seasonal-adjustments.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-007",
+    "name": "Net Metering Bi-Directional Meters",
+    "category": "Renewable Energy",
+    "status": "non-compliant",
+    "complianceRate": 67.9,
+    "lastUpdated": "2024-01-19T13:40:00Z",
+    "riskLevel": "high",
+    "description": "Bi-directional meters for solar and renewable energy net metering applications",
+    "criteria": [
+      {
+        "id": "EM-007-C1",
+        "title": "Bi-Directional Measurement",
+        "description": "Accurate measurement of both imported and exported energy",
+        "priority": "critical",
+        "category": "Renewable Integration",
+        "requirements": [
+          "Separate import/export energy registers",
+          "Power factor measurement in both directions",
+          "Anti-islanding protection compliance"
+        ],
+        "lastReviewed": "2024-01-17T14:30:00Z",
+        "documentLinks": ["net-metering-standards.pdf", "anti-islanding.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-008",
+    "name": "Polyphase Industrial Meters",
+    "category": "Industrial",
+    "status": "compliant",
+    "complianceRate": 93.5,
+    "lastUpdated": "2024-01-13T10:50:00Z",
+    "riskLevel": "low",
+    "description": "High-accuracy polyphase meters for large industrial installations",
+    "criteria": [
+      {
+        "id": "EM-008-C1",
+        "title": "Harmonic Analysis",
+        "description": "Power quality monitoring with harmonic distortion analysis",
+        "priority": "medium",
+        "category": "Power Quality",
+        "requirements": [
+          "THD measurement up to 50th harmonic",
+          "Voltage sag/swell detection",
+          "Power quality event logging"
+        ],
+        "lastReviewed": "2024-01-11T16:20:00Z",
+        "documentLinks": ["harmonic-analysis.pdf", "power-quality-standards.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-009",
+    "name": "Tamper-Resistant Security Meters",
+    "category": "Security",
+    "status": "pending",
+    "complianceRate": 79.6,
+    "lastUpdated": "2024-01-17T11:25:00Z",
+    "riskLevel": "medium",
+    "description": "Enhanced security meters with advanced tamper detection and prevention",
+    "criteria": [
+      {
+        "id": "EM-009-C1",
+        "title": "Tamper Detection",
+        "description": "Comprehensive tamper detection and logging capabilities",
+        "priority": "critical",
+        "category": "Security Features",
+        "requirements": [
+          "Magnetic field detection",
+          "Cover removal detection",
+          "Current bypass detection"
+        ],
+        "lastReviewed": "2024-01-15T09:40:00Z",
+        "documentLinks": ["tamper-detection-spec.pdf", "security-protocols.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-010",
+    "name": "Outdoor Weather-Resistant Meters",
+    "category": "Environmental",
+    "status": "compliant",
+    "complianceRate": 90.3,
+    "lastUpdated": "2024-01-18T15:10:00Z",
+    "riskLevel": "low",
+    "description": "Weather-resistant meters designed for outdoor installation environments",
+    "criteria": [
+      {
+        "id": "EM-010-C1",
+        "title": "Environmental Protection",
+        "description": "Protection against environmental factors and weather conditions",
+        "priority": "high",
+        "category": "Environmental Standards",
+        "requirements": [
+          "IP65 ingress protection rating",
+          "Operating temperature -40°C to +70°C",
+          "UV radiation resistance"
+        ],
+        "lastReviewed": "2024-01-16T12:55:00Z",
+        "documentLinks": ["ip-rating-standards.pdf", "environmental-testing.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-011",
+    "name": "Substation Revenue Meters",
+    "category": "Substation",
+    "status": "under-review",
+    "complianceRate": 74.8,
+    "lastUpdated": "2024-01-20T14:35:00Z",
+    "riskLevel": "high",
+    "description": "High-precision revenue-grade meters for electrical substations",
+    "criteria": [
+      {
+        "id": "EM-011-C1",
+        "title": "Revenue Grade Accuracy",
+        "description": "Highest accuracy standards for revenue measurement applications",
+        "priority": "critical",
+        "category": "Revenue Measurement",
+        "requirements": [
+          "Accuracy class 0.2S or better",
+          "Burden verification capability",
+          "Revenue protection algorithms"
+        ],
+        "lastReviewed": "2024-01-18T13:15:00Z",
+        "documentLinks": ["revenue-grade-spec.pdf", "accuracy-verification.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-012",
+    "name": "Apartment Complex Sub-Meters",
+    "category": "Multi-Tenant",
+    "status": "compliant",
+    "complianceRate": 86.7,
+    "lastUpdated": "2024-01-15T16:40:00Z",
+    "riskLevel": "medium",
+    "description": "Sub-metering solutions for apartment complexes and multi-tenant buildings",
+    "criteria": [
+      {
+        "id": "EM-012-C1",
+        "title": "Multi-Tenant Management",
+        "description": "Individual tenant billing and centralized management capabilities",
+        "priority": "high",
+        "category": "Multi-Tenant Features",
+        "requirements": [
+          "Individual tenant data isolation",
+          "Centralized reading capability",
+          "Tenant usage reporting"
+        ],
+        "lastReviewed": "2024-01-13T10:25:00Z",
+        "documentLinks": ["multi-tenant-spec.pdf", "data-isolation.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-013",
+    "name": "Electric Vehicle Charging Meters",
+    "category": "EV Charging",
+    "status": "pending",
+    "complianceRate": 81.2,
+    "lastUpdated": "2024-01-19T09:50:00Z",
+    "riskLevel": "medium",
+    "description": "Specialized meters for electric vehicle charging station applications",
+    "criteria": [
+      {
+        "id": "EM-013-C1",
+        "title": "EV Charging Standards",
+        "description": "Compliance with electric vehicle charging infrastructure standards",
+        "priority": "high",
+        "category": "EV Infrastructure",
+        "requirements": [
+          "OCPP (Open Charge Point Protocol) support",
+          "Dynamic load management",
+          "Session-based billing capability"
+        ],
+        "lastReviewed": "2024-01-17T11:40:00Z",
+        "documentLinks": ["ocpp-standards.pdf", "ev-charging-regs.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-014",
+    "name": "Data Center Power Meters",
+    "category": "Data Center",
+    "status": "compliant",
+    "complianceRate": 92.4,
+    "lastUpdated": "2024-01-16T13:20:00Z",
+    "riskLevel": "low",
+    "description": "High-precision meters for data center power monitoring and management",
+    "criteria": [
+      {
+        "id": "EM-014-C1",
+        "title": "Real-Time Monitoring",
+        "description": "Real-time power monitoring with high-frequency data sampling",
+        "priority": "high",
+        "category": "Data Center Operations",
+        "requirements": [
+          "Sub-second data sampling rate",
+          "Power usage effectiveness (PUE) calculation",
+          "Rack-level power monitoring"
+        ],
+        "lastReviewed": "2024-01-14T15:30:00Z",
+        "documentLinks": ["datacenter-monitoring.pdf", "pue-calculation.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-015",
+    "name": "Temporary Construction Meters",
+    "category": "Temporary",
+    "status": "non-compliant",
+    "complianceRate": 69.1,
+    "lastUpdated": "2024-01-20T10:15:00Z",
+    "riskLevel": "high",
+    "description": "Portable meters for temporary construction and event power supply",
+    "criteria": [
+      {
+        "id": "EM-015-C1",
+        "title": "Portability Standards",
+        "description": "Rugged design for temporary installation and frequent relocation",
+        "priority": "medium",
+        "category": "Portability",
+        "requirements": [
+          "Shock and vibration resistance",
+          "Quick-connect terminals",
+          "Theft prevention features"
+        ],
+        "lastReviewed": "2024-01-18T14:45:00Z",
+        "documentLinks": ["portable-meter-spec.pdf", "theft-prevention.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "EM-016",
+    "name": "Marine and Offshore Meters",
+    "category": "Marine",
+    "status": "under-review",
+    "complianceRate": 72.5,
+    "lastUpdated": "2024-01-19T12:30:00Z",
+    "riskLevel": "high",
+    "description": "Specialized meters for marine vessels and offshore installations",
+    "criteria": [
+      {
+        "id": "EM-016-C1",
+        "title": "Marine Environment Protection",
+        "description": "Enhanced protection against marine environmental conditions",
+        "priority": "critical",
+        "category": "Marine Standards",
+        "requirements": [
+          "Salt spray corrosion resistance",
+          "Vibration tolerance per marine standards",
+          "Explosive atmosphere certification"
+        ],
+        "lastReviewed": "2024-01-17T16:20:00Z",
+        "documentLinks": ["marine-standards.pdf", "explosion-proof-cert.pdf"]
+      }
+    ]
+  }
+]

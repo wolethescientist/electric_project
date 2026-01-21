@@ -1,0 +1,110 @@
+{
+  "overallComplianceRate": 84.3,
+  "totalRegulationItems": 16,
+  "criticalIssues": 7,
+  "lastUpdated": "2024-01-20T16:00:00Z",
+  "trendsData": [
+    { "date": "2024-01-01", "value": 82.1, "category": "overall" },
+    { "date": "2024-01-02", "value": 82.3, "category": "overall" },
+    { "date": "2024-01-03", "value": 82.8, "category": "overall" },
+    { "date": "2024-01-04", "value": 83.1, "category": "overall" },
+    { "date": "2024-01-05", "value": 83.4, "category": "overall" },
+    { "date": "2024-01-06", "value": 83.7, "category": "overall" },
+    { "date": "2024-01-07", "value": 84.0, "category": "overall" },
+    { "date": "2024-01-08", "value": 84.1, "category": "overall" },
+    { "date": "2024-01-09", "value": 84.2, "category": "overall" },
+    { "date": "2024-01-10", "value": 84.3, "category": "overall" }
+  ],
+  "categoryBreakdown": [
+    {
+      "category": "Residential",
+      "complianceRate": 94.2,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Commercial",
+      "complianceRate": 89.7,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Industrial",
+      "complianceRate": 84.9,
+      "itemCount": 2,
+      "criticalIssues": 1
+    },
+    {
+      "category": "Smart Grid",
+      "complianceRate": 91.8,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Prepaid",
+      "complianceRate": 82.4,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Time-of-Use",
+      "complianceRate": 88.1,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Renewable Energy",
+      "complianceRate": 67.9,
+      "itemCount": 1,
+      "criticalIssues": 2
+    },
+    {
+      "category": "Security",
+      "complianceRate": 79.6,
+      "itemCount": 1,
+      "criticalIssues": 1
+    },
+    {
+      "category": "Environmental",
+      "complianceRate": 90.3,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Substation",
+      "complianceRate": 74.8,
+      "itemCount": 1,
+      "criticalIssues": 1
+    },
+    {
+      "category": "Multi-Tenant",
+      "complianceRate": 86.7,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "EV Charging",
+      "complianceRate": 81.2,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Data Center",
+      "complianceRate": 92.4,
+      "itemCount": 1,
+      "criticalIssues": 0
+    },
+    {
+      "category": "Temporary",
+      "complianceRate": 69.1,
+      "itemCount": 1,
+      "criticalIssues": 1
+    },
+    {
+      "category": "Marine",
+      "complianceRate": 72.5,
+      "itemCount": 1,
+      "criticalIssues": 1
+    }
+  ]
+}

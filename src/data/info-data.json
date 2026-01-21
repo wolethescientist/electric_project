@@ -1,0 +1,226 @@
+{
+  "documentation": [
+    {
+      "id": "regulatory-overview",
+      "title": "NEMSA Regulatory Overview",
+      "content": "The Nigerian Electricity Management Services Agency (NEMSA) was established by NEMSA Act 2015 (now the Electricity Act 2023) to carry out the Functions of Enforcement of Technical Standards and Regulations, Technical Inspection, Testing and Certification of All Categories of Electrical Installations, Electricity Meters and Instruments.",
+      "lastUpdated": "2024-01-15T00:00:00Z",
+      "subsections": [
+        {
+          "id": "nemsa-mandate",
+          "title": "NEMSA's Mandate",
+          "content": "NEMSA's mandate, functions, roles and responsibilities are geared towards constantly improving power supply and safety in Nigeria. We ensure the Efficient Production and Delivery of Safe, Reliable and Sustainable Electricity Power Supply and Guarantee Safety of Lives and Property in the Nigerian Electricity Supply Industry, and other allied industries/workplaces.",
+          "lastUpdated": "2024-01-15T00:00:00Z"
+        },
+        {
+          "id": "critical-elements",
+          "title": "Critical Elements of NEMSA's Mandate",
+          "content": "Ensuring that: electrical materials/equipment/instruments used in NESI, workplaces and other premises are of the right type, quality, standard and specifications; the power systems and networks put in place have been properly planned, designed and executed before use; electrical installations in homes, offices, commercial and industrial premises have been properly installed; safety of lives and property within the grid and off-grid networks is assured; electricity energy meters and instruments used in Nigeria are of the right type, quality, class and accuracy.",
+          "lastUpdated": "2024-01-15T00:00:00Z"
+        },
+        {
+          "id": "certification-authority",
+          "title": "Certification Authority",
+          "content": "NEMSA is responsible for Certification of all Electrical Installations Contractors, Practitioners and all other technical personnel engaged in the practice of electrical installations works along the Power value chain and utilisation and other premises.",
+          "lastUpdated": "2024-01-15T00:00:00Z"
+        },
+        {
+          "id": "statutory-functions",
+          "title": "Statutory Functions",
+          "content": "NEMSA has taken over the functions of statutory electrical inspection, testing and certification of all electrical installation hitherto carried out by the Director of Electrical Inspectorate Services and the Electrical Inspectorate Services Division of the Federal Ministry of Power.",
+          "lastUpdated": "2024-01-15T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "certification-process",
+      "title": "NEMSA Certification Process",
+      "content": "All electrical installations, meters and instruments must undergo comprehensive certification process before being approved for use in Nigeria. This process includes technical evaluation, safety testing, and compliance verification according to NEMSA standards.",
+      "lastUpdated": "2024-01-10T00:00:00Z",
+      "subsections": [
+        {
+          "id": "application-submission",
+          "title": "Application Submission",
+          "content": "Manufacturers and contractors must submit detailed technical specifications, test reports, and compliance documentation through NEMSA's certification portal.",
+          "lastUpdated": "2024-01-10T00:00:00Z"
+        },
+        {
+          "id": "technical-evaluation",
+          "title": "Technical Evaluation",
+          "content": "NEMSA's technical team conducts thorough evaluations of meter accuracy, durability, and safety features according to Nigerian and international standards to ensure safe, reliable and sustainable electricity supply.",
+          "lastUpdated": "2024-01-10T00:00:00Z"
+        },
+        {
+          "id": "field-testing",
+          "title": "Field Testing and Inspection",
+          "content": "Selected meters and installations undergo field testing and inspection in real-world Nigerian conditions to verify performance, reliability and safety over extended periods.",
+          "lastUpdated": "2024-01-10T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "standards-compliance",
+      "title": "Standards & Compliance",
+      "content": "NEMSA's regulatory standards are based on Nigerian requirements and international best practices, regularly updated to reflect technological advances and safety improvements in the Nigerian Electricity Supply Industry.",
+      "lastUpdated": "2024-01-08T00:00:00Z",
+      "subsections": [
+        {
+          "id": "international-standards",
+          "title": "International Standards Alignment",
+          "content": "NEMSA aligns requirements with IEC 62052, IEC 62053, and other relevant international standards for electricity metering equipment while adapting them to Nigerian conditions.",
+          "lastUpdated": "2024-01-08T00:00:00Z"
+        },
+        {
+          "id": "national-requirements",
+          "title": "Nigerian National Requirements",
+          "content": "Additional national requirements address local environmental conditions, Nigerian grid characteristics, consumer protection measures, and specific needs of the Nigerian Electricity Supply Industry.",
+          "lastUpdated": "2024-01-08T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "enforcement-penalties",
+      "title": "Enforcement & Penalties",
+      "content": "Non-compliance with NEMSA regulatory requirements may result in penalties, product recalls, suspension of certification privileges, or other enforcement actions to ensure safety of lives and property in Nigeria.",
+      "lastUpdated": "2024-01-05T00:00:00Z",
+      "subsections": [
+        {
+          "id": "violation-categories",
+          "title": "Violation Categories",
+          "content": "Violations are classified based on their potential impact on safety, measurement accuracy, and the reliability of electricity supply in the Nigerian Electricity Supply Industry.",
+          "lastUpdated": "2024-01-05T00:00:00Z"
+        },
+        {
+          "id": "penalty-structure",
+          "title": "Penalty Structure",
+          "content": "Penalties range from warnings and corrective action requirements to monetary fines, certification suspension, and other measures as provided under the Electricity Act 2023.",
+          "lastUpdated": "2024-01-05T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "id": "faq-1",
+      "question": "How long does the NEMSA certification process take?",
+      "answer": "The typical NEMSA certification process takes 6-12 weeks, depending on the complexity of the electrical installation, meter type and the completeness of the submitted documentation. Priority processing may be available for critical infrastructure projects.",
+      "category": "Certification",
+      "tags": ["timeline", "process", "certification"],
+      "lastUpdated": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "faq-2",
+      "question": "What are the fees for NEMSA certification?",
+      "answer": "Certification fees vary based on installation type, meter category and complexity. Basic residential installations start at ₦50,000, while complex industrial installations may cost up to ₦500,000. A detailed fee schedule is available on the NEMSA website.",
+      "category": "Fees",
+      "tags": ["cost", "fees", "pricing", "naira"],
+      "lastUpdated": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "faq-3",
+      "question": "Can I track my NEMSA application status online?",
+      "answer": "Yes, NEMSA's online portal provides real-time status updates for all applications. You'll receive SMS and email notifications at key milestones in the certification process.",
+      "category": "Process",
+      "tags": ["tracking", "status", "online", "portal"],
+      "lastUpdated": "2024-01-12T00:00:00Z"
+    },
+    {
+      "id": "faq-4",
+      "question": "What happens if my installation fails NEMSA certification?",
+      "answer": "If an installation fails NEMSA certification, we provide detailed feedback on the specific safety and compliance issues. You can resubmit after addressing the concerns, with reduced fees for resubmission within 90 days.",
+      "category": "Certification",
+      "tags": ["failure", "resubmission", "feedback", "safety"],
+      "lastUpdated": "2024-01-12T00:00:00Z"
+    },
+    {
+      "id": "faq-5",
+      "question": "Are there different requirements for smart meters in Nigeria?",
+      "answer": "Smart meters have additional requirements for cybersecurity, data privacy, and communication protocols suitable for the Nigerian grid. NEMSA has developed specific guidelines for IoT-enabled metering devices used in the Nigerian Electricity Supply Industry.",
+      "category": "Smart Meters",
+      "tags": ["smart meters", "cybersecurity", "IoT", "NESI"],
+      "lastUpdated": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "faq-6",
+      "question": "How often do I need to renew NEMSA certification?",
+      "answer": "Standard NEMSA certifications are valid for 5 years. However, significant design changes, new regulatory requirements, or safety incidents may necessitate earlier recertification to ensure continued safety of lives and property.",
+      "category": "Renewal",
+      "tags": ["renewal", "validity", "recertification", "safety"],
+      "lastUpdated": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "faq-7",
+      "question": "Can I appeal a NEMSA certification decision?",
+      "answer": "Yes, you have the right to appeal any NEMSA certification decision within 30 days as provided under the Electricity Act 2023. The appeal process includes an independent technical review and hearing if requested.",
+      "category": "Appeals",
+      "tags": ["appeal", "review", "decision", "electricity act"],
+      "lastUpdated": "2024-01-08T00:00:00Z"
+    },
+    {
+      "id": "faq-8",
+      "question": "What documentation is required for NEMSA certification?",
+      "answer": "Required documentation includes technical specifications, test reports, quality management certificates, installation drawings, user manuals, and compliance declarations. A complete checklist is available in NEMSA's application guide.",
+      "category": "Documentation",
+      "tags": ["documentation", "requirements", "checklist", "specifications"],
+      "lastUpdated": "2024-01-08T00:00:00Z"
+    },
+    {
+      "id": "faq-9",
+      "question": "Does NEMSA regulate both grid and off-grid electrical installations?",
+      "answer": "Yes, NEMSA's mandate covers both grid and off-grid networks to ensure safety of lives and property. This includes solar installations, mini-grids, and other distributed energy resources connected to or operating independently from the main grid.",
+      "category": "Scope",
+      "tags": ["grid", "off-grid", "solar", "distributed energy"],
+      "lastUpdated": "2024-01-20T00:00:00Z"
+    },
+    {
+      "id": "faq-10",
+      "question": "What is NEMSA's motto and core mission?",
+      "answer": "NEMSA's motto is 'Safety, Quality and Efficient Service Delivery'. Our core mission is to ensure the Efficient Production and Delivery of Safe, Reliable and Sustainable Electricity Power Supply and Guarantee Safety of Lives and Property in the Nigerian Electricity Supply Industry.",
+      "category": "About NEMSA",
+      "tags": ["motto", "mission", "safety", "quality", "service delivery"],
+      "lastUpdated": "2024-01-20T00:00:00Z"
+    }
+  ],
+  "contacts": [
+    {
+      "department": "Certification Department",
+      "name": "Engr. Adebayo Ogundimu",
+      "title": "Director of Certification",
+      "email": "certification@nemsa.gov.ng",
+      "phone": "+234 803 344 5566",
+      "office": "NEMSA Headquarters, Abuja"
+    },
+    {
+      "department": "Technical Standards",
+      "name": "Engr. Fatima Abdullahi",
+      "title": "Chief Technical Officer",
+      "email": "technical@nemsa.gov.ng",
+      "phone": "+234 803 344 5567",
+      "office": "Technical Standards Division, Abuja"
+    },
+    {
+      "department": "Compliance & Enforcement",
+      "name": "Engr. Chinedu Okwu",
+      "title": "Head of Compliance",
+      "email": "compliance@nemsa.gov.ng",
+      "phone": "+234 803 344 5568",
+      "office": "Enforcement Division, Abuja"
+    },
+    {
+      "department": "Customer Service",
+      "name": "Mrs. Aisha Mohammed",
+      "title": "Customer Relations Manager",
+      "email": "customerservice@nemsa.gov.ng",
+      "phone": "+234 803 344 5569",
+      "office": "Customer Service Unit, Abuja"
+    },
+    {
+      "department": "Electrical Inspectorate Services",
+      "name": "Engr. Olumide Adeyemi",
+      "title": "Director of Inspectorate Services",
+      "email": "inspectorate@nemsa.gov.ng",
+      "phone": "+234 803 344 5570",
+      "office": "Inspectorate Services Division, Abuja"
+    }
+  ]
+}

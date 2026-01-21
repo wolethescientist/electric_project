@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or sensitive paths (if any)
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://electric-meter-portal.vercel.app/sitemap.xml

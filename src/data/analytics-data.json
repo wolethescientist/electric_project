@@ -1,0 +1,135 @@
+{
+  "historicalTrends": [
+    { "date": "2023-12-01", "value": 78.5, "metric": "overall_compliance" },
+    { "date": "2023-12-15", "value": 79.2, "metric": "overall_compliance" },
+    { "date": "2024-01-01", "value": 80.1, "metric": "overall_compliance" },
+    { "date": "2024-01-15", "value": 82.8, "metric": "overall_compliance" },
+    { "date": "2024-01-20", "value": 84.3, "metric": "overall_compliance" },
+    { "date": "2023-12-01", "value": 12, "metric": "critical_issues" },
+    { "date": "2023-12-15", "value": 10, "metric": "critical_issues" },
+    { "date": "2024-01-01", "value": 9, "metric": "critical_issues" },
+    { "date": "2024-01-15", "value": 8, "metric": "critical_issues" },
+    { "date": "2024-01-20", "value": 7, "metric": "critical_issues" }
+  ],
+  "predictiveInsights": [
+    {
+      "metric": "overall_compliance",
+      "currentValue": 84.3,
+      "predictedValue": 87.1,
+      "confidence": 0.82,
+      "timeframe": "next_30_days"
+    },
+    {
+      "metric": "critical_issues",
+      "currentValue": 7,
+      "predictedValue": 5,
+      "confidence": 0.75,
+      "timeframe": "next_30_days"
+    },
+    {
+      "metric": "renewable_energy_compliance",
+      "currentValue": 67.9,
+      "predictedValue": 72.4,
+      "confidence": 0.68,
+      "timeframe": "next_60_days"
+    }
+  ],
+  "comparativeAnalysis": [
+    {
+      "itemA": "Single-Phase Residential Meters",
+      "itemB": "Three-Phase Commercial Meters",
+      "metric": "compliance_rate",
+      "valueA": 94.2,
+      "valueB": 89.7,
+      "difference": 4.5
+    },
+    {
+      "itemA": "Smart Grid Compatible Meters",
+      "itemB": "Net Metering Bi-Directional Meters",
+      "metric": "compliance_rate",
+      "valueA": 91.8,
+      "valueB": 67.9,
+      "difference": 23.9
+    },
+    {
+      "itemA": "Data Center Power Meters",
+      "itemB": "Temporary Construction Meters",
+      "metric": "compliance_rate",
+      "valueA": 92.4,
+      "valueB": 69.1,
+      "difference": 23.3
+    }
+  ],
+  "riskAssessment": [
+    {
+      "regulationId": "EM-007",
+      "riskLevel": "high",
+      "riskFactors": [
+        "Low compliance rate (67.9%)",
+        "Complex bi-directional measurement requirements",
+        "Rapid growth in renewable energy installations"
+      ],
+      "mitigationSuggestions": [
+        "Increase inspection frequency for net metering installations",
+        "Provide additional training for installers",
+        "Update technical standards for renewable integration"
+      ]
+    },
+    {
+      "regulationId": "EM-015",
+      "riskLevel": "high",
+      "riskFactors": [
+        "Low compliance rate (69.1%)",
+        "Frequent relocation and handling",
+        "Temporary nature leads to oversight gaps"
+      ],
+      "mitigationSuggestions": [
+        "Implement stricter tracking system for temporary meters",
+        "Require pre-installation compliance verification",
+        "Develop portable testing equipment for field verification"
+      ]
+    },
+    {
+      "regulationId": "EM-003",
+      "riskLevel": "high",
+      "riskFactors": [
+        "High-voltage safety concerns",
+        "Complex industrial environments",
+        "Critical infrastructure applications"
+      ],
+      "mitigationSuggestions": [
+        "Mandate quarterly safety inspections",
+        "Require certified technician installations only",
+        "Implement remote monitoring for safety parameters"
+      ]
+    },
+    {
+      "regulationId": "EM-011",
+      "riskLevel": "high",
+      "riskFactors": [
+        "Revenue-critical applications",
+        "High-precision requirements",
+        "Substation environment challenges"
+      ],
+      "mitigationSuggestions": [
+        "Increase calibration frequency",
+        "Implement redundant measurement systems",
+        "Enhance environmental protection standards"
+      ]
+    },
+    {
+      "regulationId": "EM-016",
+      "riskLevel": "high",
+      "riskFactors": [
+        "Harsh marine environment",
+        "Remote offshore locations",
+        "Limited maintenance access"
+      ],
+      "mitigationSuggestions": [
+        "Require enhanced corrosion protection",
+        "Implement satellite-based remote monitoring",
+        "Establish emergency response protocols"
+      ]
+    }
+  ]
+}

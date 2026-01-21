@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NEMSA Electric Meter Portal
+
+This is a [Next.js](https://nextjs.org) project for the Nigerian Electricity Management Services Agency (NEMSA) Electric Meter Regulation Portal, bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## About NEMSA
+
+The Nigerian Electricity Management Services Agency (NEMSA) was established by NEMSA Act 2015 (now the Electricity Act 2023) to carry out the Functions of Enforcement of Technical Standards and Regulations, Technical Inspection, Testing and Certification of All Categories of Electrical Installations, Electricity Meters and Instruments.
+
+**NEMSA's Motto:** Safety, Quality and Efficient Service Delivery
+
+**Mission:** To ensure the Efficient Production and Delivery of Safe, Reliable and Sustainable Electricity Power Supply and Guarantee Safety of Lives and Property in the Nigerian Electricity Supply Industry, and other allied industries/workplaces.
+
+## Portal Features
+
+This portal provides:
+- Dashboard for regulation compliance monitoring
+- Metrics and analytics for electrical installations
+- Information hub for NEMSA standards and procedures
+- Certification tracking and management
+- Contact information for NEMSA departments
 
 ## Getting Started
 
@@ -34,3 +53,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## NEMSA Contact Information
+
+**Headquarters:** Plot 1459, Mohammadu Buhari Way, Central Business District, Abuja, Nigeria  
+**Phone:** +234 803 344 5566  
+**Email:** info@nemsa.gov.ng  
+**Website:** https://nemsa.gov.ng/
