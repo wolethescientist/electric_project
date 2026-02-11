@@ -1,487 +1,520 @@
 [
   {
-    "id": "EM-001",
-    "name": "Single-Phase Residential Meters",
-    "category": "Residential",
+    "id": "NEMSA-001",
+    "name": "Power Plants (GenCos)",
+    "category": "Power Generation & Transmission",
     "status": "compliant",
-    "complianceRate": 94.2,
+    "complianceRate": 92.5,
     "lastUpdated": "2024-01-15T10:30:00Z",
     "riskLevel": "low",
-    "description": "Standard single-phase electricity meters for residential properties up to 100A service capacity",
+    "description": "All categories of generating stations including Thermal, Hydro, Solar, and other power generation facilities",
     "criteria": [
       {
-        "id": "EM-001-C1",
-        "title": "Accuracy Standards",
-        "description": "Meter accuracy must comply with IEC 62053-21 Class 1 standards",
+        "id": "NEMSA-001-C1",
+        "title": "Generation Capacity Standards",
+        "description": "Compliance with NEMSA Act 2015 and Electricity Act 2023 for power generation facilities",
         "priority": "critical",
         "category": "Technical Specifications",
         "requirements": [
-          "Accuracy class 1.0 for active energy measurement",
-          "Temperature coefficient ≤ 0.02%/°C",
-          "Voltage influence ≤ 0.5% for ±10% voltage variation"
+          "Thermal power plant certification",
+          "Hydroelectric facility compliance",
+          "Solar generation system approval",
+          "Fit for use certification before energization"
         ],
         "lastReviewed": "2024-01-10T09:00:00Z",
-        "documentLinks": ["IEC-62053-21.pdf", "accuracy-test-procedures.pdf"]
-      },
-      {
-        "id": "EM-001-C2",
-        "title": "Display Requirements",
-        "description": "LCD display must show current consumption and cumulative readings",
-        "priority": "medium",
-        "category": "User Interface",
-        "requirements": [
-          "Minimum 6-digit LCD display",
-          "Backlight functionality for low-light conditions",
-          "Display refresh rate ≤ 1 second"
-        ],
-        "lastReviewed": "2024-01-05T14:15:00Z",
-        "documentLinks": ["display-standards.pdf", "ui-requirements.pdf"]
-      },
-      {
-        "id": "EM-001-C3",
-        "title": "Installation Safety",
-        "description": "Safety requirements for residential meter installation",
-        "priority": "high",
-        "category": "Safety Standards",
-        "requirements": [
-          "IP54 ingress protection minimum",
-          "Flame retardant housing materials",
-          "Proper grounding connection points"
-        ],
-        "lastReviewed": "2024-01-08T16:30:00Z",
-        "documentLinks": ["safety-installation.pdf", "grounding-specs.pdf"]
+        "documentLinks": ["nemsa-act-2015.pdf", "electricity-act-2023.pdf", "genco-standards.pdf"]
       }
     ]
   },
   {
-    "id": "EM-002",
-    "name": "Three-Phase Commercial Meters",
-    "category": "Commercial",
+    "id": "NEMSA-002",
+    "name": "Transmission Lines (EHV & HV)",
+    "category": "Power Generation & Transmission",
     "status": "compliant",
-    "complianceRate": 89.7,
+    "complianceRate": 88.3,
     "lastUpdated": "2024-01-12T14:20:00Z",
     "riskLevel": "medium",
-    "description": "Three-phase electricity meters for commercial establishments with service capacity 100A-400A",
+    "description": "Extra High Voltage (330kV) and High Voltage (132kV) transmission lines",
     "criteria": [
       {
-        "id": "EM-002-C1",
-        "title": "Load Profile Recording",
-        "description": "Mandatory load profile recording capabilities for demand management",
-        "priority": "high",
-        "category": "Data Management",
+        "id": "NEMSA-002-C1",
+        "title": "High Voltage Line Standards",
+        "description": "Testing and certification requirements for EHV and HV transmission infrastructure",
+        "priority": "critical",
+        "category": "Transmission Infrastructure",
         "requirements": [
-          "15-minute interval recording minimum",
-          "30-day data storage capacity",
-          "Remote data retrieval capability"
+          "330kV Extra High Voltage line certification",
+          "132kV High Voltage line compliance",
+          "Conductor integrity testing",
+          "Insulation resistance verification"
         ],
         "lastReviewed": "2024-01-08T11:30:00Z",
-        "documentLinks": ["load-profile-standards.pdf", "data-retention-policy.pdf"]
-      },
-      {
-        "id": "EM-002-C2",
-        "title": "Communication Protocols",
-        "description": "Support for standard communication protocols for commercial applications",
-        "priority": "critical",
-        "category": "Communication",
-        "requirements": [
-          "Modbus RTU protocol support",
-          "RS-485 communication interface",
-          "Ethernet connectivity option"
-        ],
-        "lastReviewed": "2024-01-12T09:45:00Z",
-        "documentLinks": ["modbus-specification.pdf", "ethernet-requirements.pdf"]
-      },
-      {
-        "id": "EM-002-C3",
-        "title": "Power Quality Monitoring",
-        "description": "Basic power quality monitoring for commercial installations",
-        "priority": "medium",
-        "category": "Power Quality",
-        "requirements": [
-          "Voltage and current harmonic measurement",
-          "Power factor monitoring",
-          "Frequency deviation detection"
-        ],
-        "lastReviewed": "2024-01-06T13:20:00Z",
-        "documentLinks": ["power-quality-spec.pdf", "harmonic-analysis.pdf"]
-      },
-      {
-        "id": "EM-002-C4",
-        "title": "Billing Integration",
-        "description": "Integration capabilities with commercial billing systems",
-        "priority": "low",
-        "category": "Billing Features",
-        "requirements": [
-          "Multi-rate tariff support",
-          "Demand billing calculations",
-          "Export data in standard formats"
-        ],
-        "lastReviewed": "2024-01-04T10:15:00Z",
-        "documentLinks": ["billing-integration.pdf", "tariff-calculations.pdf"]
+        "documentLinks": ["transmission-standards.pdf", "hv-testing-procedures.pdf"]
       }
     ]
   },
   {
-    "id": "EM-003",
-    "name": "Industrial High-Voltage Meters",
-    "category": "Industrial",
-    "status": "under-review",
-    "complianceRate": 76.3,
+    "id": "NEMSA-003",
+    "name": "Transmission Substations",
+    "category": "Power Generation & Transmission",
+    "status": "compliant",
+    "complianceRate": 90.1,
     "lastUpdated": "2024-01-18T16:45:00Z",
-    "riskLevel": "high",
-    "description": "High-voltage meters for industrial facilities above 1kV service voltage",
+    "riskLevel": "low",
+    "description": "Switching stations that manage bulk power distribution across the grid",
     "criteria": [
       {
-        "id": "EM-003-C1",
-        "title": "Safety Isolation",
-        "description": "Enhanced safety isolation requirements for high-voltage applications",
+        "id": "NEMSA-003-C1",
+        "title": "Substation Safety Standards",
+        "description": "Comprehensive safety and operational requirements for transmission substations",
         "priority": "critical",
         "category": "Safety Standards",
         "requirements": [
-          "Isolation voltage rating ≥ 4kV",
-          "Arc fault detection capability",
-          "Emergency disconnect functionality"
+          "Switching equipment certification",
+          "Bulk power management systems",
+          "Emergency shutdown procedures",
+          "Personnel safety protocols"
         ],
         "lastReviewed": "2024-01-15T13:20:00Z",
-        "documentLinks": ["hv-safety-standards.pdf", "isolation-testing.pdf"]
+        "documentLinks": ["substation-standards.pdf", "switching-procedures.pdf"]
       }
     ]
   },
   {
-    "id": "EM-004",
-    "name": "Smart Grid Compatible Meters",
-    "category": "Smart Grid",
+    "id": "NEMSA-004",
+    "name": "Distribution Transformers",
+    "category": "Distribution Network Materials",
     "status": "compliant",
-    "complianceRate": 91.8,
+    "complianceRate": 85.7,
     "lastUpdated": "2024-01-20T08:15:00Z",
-    "riskLevel": "low",
-    "description": "Advanced metering infrastructure compatible smart meters with two-way communication",
+    "riskLevel": "medium",
+    "description": "Transformer units and their installation sites for power distribution",
     "criteria": [
       {
-        "id": "EM-004-C1",
-        "title": "Communication Protocols",
-        "description": "Support for standardized smart grid communication protocols",
+        "id": "NEMSA-004-C1",
+        "title": "Transformer Testing & Installation",
+        "description": "Standards for distribution transformer units and installation site compliance",
         "priority": "high",
-        "category": "Communication",
+        "category": "Distribution Equipment",
         "requirements": [
-          "DLMS/COSEM protocol support",
-          "IPv6 network compatibility",
-          "End-to-end encryption (AES-256)"
+          "Transformer unit certification",
+          "Installation site inspection",
+          "Load capacity verification",
+          "Oil quality testing for oil-filled transformers"
         ],
         "lastReviewed": "2024-01-18T10:00:00Z",
-        "documentLinks": ["dlms-cosem-spec.pdf", "encryption-standards.pdf"]
+        "documentLinks": ["transformer-standards.pdf", "installation-guidelines.pdf"]
       }
     ]
   },
   {
-    "id": "EM-005",
-    "name": "Prepaid Energy Meters",
-    "category": "Prepaid",
-    "status": "pending",
-    "complianceRate": 82.4,
+    "id": "NEMSA-005",
+    "name": "Electric Concrete Poles",
+    "category": "Distribution Network Materials",
+    "status": "compliant",
+    "complianceRate": 91.2,
     "lastUpdated": "2024-01-14T12:30:00Z",
-    "riskLevel": "medium",
-    "description": "Prepaid electricity meters with credit management and tamper detection",
+    "riskLevel": "low",
+    "description": "Manufacturing site inspection and mechanical strength testing of concrete poles",
     "criteria": [
       {
-        "id": "EM-005-C1",
-        "title": "Credit Management",
-        "description": "Secure credit loading and balance management system",
-        "priority": "critical",
-        "category": "Financial Security",
+        "id": "NEMSA-005-C1",
+        "title": "Pole Manufacturing & Strength Standards",
+        "description": "Quality control for concrete pole manufacturing and mechanical integrity",
+        "priority": "high",
+        "category": "Infrastructure Materials",
         "requirements": [
-          "STS (Standard Transfer Specification) compliance",
-          "Tamper-evident credit storage",
-          "Low credit warning system"
+          "Manufacturing site inspection",
+          "Mechanical strength testing",
+          "Load-bearing capacity verification",
+          "Durability and weather resistance testing"
         ],
         "lastReviewed": "2024-01-12T15:45:00Z",
-        "documentLinks": ["sts-specification.pdf", "tamper-detection.pdf"]
+        "documentLinks": ["pole-manufacturing-standards.pdf", "strength-testing.pdf"]
       }
     ]
   },
   {
-    "id": "EM-006",
-    "name": "Multi-Tariff Time-of-Use Meters",
-    "category": "Time-of-Use",
+    "id": "NEMSA-006",
+    "name": "Cross-Arms",
+    "category": "Distribution Network Materials",
     "status": "compliant",
-    "complianceRate": 88.1,
+    "complianceRate": 87.9,
     "lastUpdated": "2024-01-16T09:20:00Z",
     "riskLevel": "low",
-    "description": "Meters supporting multiple tariff structures based on time-of-use pricing",
+    "description": "Steel or wooden supports on poles that hold electrical wires",
     "criteria": [
       {
-        "id": "EM-006-C1",
-        "title": "Tariff Programming",
-        "description": "Flexible tariff programming and seasonal adjustment capabilities",
-        "priority": "high",
-        "category": "Billing Features",
+        "id": "NEMSA-006-C1",
+        "title": "Cross-Arm Material Standards",
+        "description": "Quality and safety requirements for steel and wooden cross-arms",
+        "priority": "medium",
+        "category": "Support Structures",
         "requirements": [
-          "Minimum 8 tariff periods per day",
-          "Seasonal tariff switching",
-          "Holiday calendar programming"
+          "Material quality certification",
+          "Load capacity testing",
+          "Corrosion resistance (steel)",
+          "Treatment verification (wooden)"
         ],
         "lastReviewed": "2024-01-14T11:15:00Z",
-        "documentLinks": ["tariff-programming.pdf", "seasonal-adjustments.pdf"]
+        "documentLinks": ["cross-arm-standards.pdf", "material-specifications.pdf"]
       }
     ]
   },
   {
-    "id": "EM-007",
-    "name": "Net Metering Bi-Directional Meters",
-    "category": "Renewable Energy",
-    "status": "non-compliant",
-    "complianceRate": 67.9,
+    "id": "NEMSA-007",
+    "name": "Insulators",
+    "category": "Distribution Network Materials",
+    "status": "compliant",
+    "complianceRate": 89.4,
     "lastUpdated": "2024-01-19T13:40:00Z",
-    "riskLevel": "high",
-    "description": "Bi-directional meters for solar and renewable energy net metering applications",
+    "riskLevel": "low",
+    "description": "Glass, porcelain, or polymer components that prevent electricity leakage to poles",
     "criteria": [
       {
-        "id": "EM-007-C1",
-        "title": "Bi-Directional Measurement",
-        "description": "Accurate measurement of both imported and exported energy",
-        "priority": "critical",
-        "category": "Renewable Integration",
+        "id": "NEMSA-007-C1",
+        "title": "Insulator Performance Standards",
+        "description": "Testing requirements for glass, porcelain, and polymer insulators",
+        "priority": "high",
+        "category": "Insulation Materials",
         "requirements": [
-          "Separate import/export energy registers",
-          "Power factor measurement in both directions",
-          "Anti-islanding protection compliance"
+          "Dielectric strength testing",
+          "Flashover voltage verification",
+          "Material integrity inspection",
+          "Environmental resistance testing"
         ],
         "lastReviewed": "2024-01-17T14:30:00Z",
-        "documentLinks": ["net-metering-standards.pdf", "anti-islanding.pdf"]
+        "documentLinks": ["insulator-standards.pdf", "dielectric-testing.pdf"]
       }
     ]
   },
   {
-    "id": "EM-008",
-    "name": "Polyphase Industrial Meters",
-    "category": "Industrial",
+    "id": "NEMSA-008",
+    "name": "Overhead Conductors & Underground Cables",
+    "category": "Distribution Network Materials",
     "status": "compliant",
-    "complianceRate": 93.5,
+    "complianceRate": 86.8,
     "lastUpdated": "2024-01-13T10:50:00Z",
-    "riskLevel": "low",
-    "description": "High-accuracy polyphase meters for large industrial installations",
+    "riskLevel": "medium",
+    "description": "Testing for conductivity and insulation integrity of power transmission cables",
     "criteria": [
       {
-        "id": "EM-008-C1",
-        "title": "Harmonic Analysis",
-        "description": "Power quality monitoring with harmonic distortion analysis",
-        "priority": "medium",
-        "category": "Power Quality",
+        "id": "NEMSA-008-C1",
+        "title": "Conductor & Cable Testing",
+        "description": "Comprehensive testing for overhead and underground power cables",
+        "priority": "critical",
+        "category": "Conductors",
         "requirements": [
-          "THD measurement up to 50th harmonic",
-          "Voltage sag/swell detection",
-          "Power quality event logging"
+          "Conductivity testing",
+          "Insulation integrity verification",
+          "Current carrying capacity",
+          "Underground cable moisture resistance"
         ],
         "lastReviewed": "2024-01-11T16:20:00Z",
-        "documentLinks": ["harmonic-analysis.pdf", "power-quality-standards.pdf"]
+        "documentLinks": ["conductor-standards.pdf", "cable-testing-procedures.pdf"]
       }
     ]
   },
   {
-    "id": "EM-009",
-    "name": "Tamper-Resistant Security Meters",
-    "category": "Security",
-    "status": "pending",
-    "complianceRate": 79.6,
+    "id": "NEMSA-009",
+    "name": "Electricity Meters",
+    "category": "Metering & Measurement Tools",
+    "status": "compliant",
+    "complianceRate": 93.6,
     "lastUpdated": "2024-01-17T11:25:00Z",
-    "riskLevel": "medium",
-    "description": "Enhanced security meters with advanced tamper detection and prevention",
+    "riskLevel": "low",
+    "description": "All prepaid and postpaid meters including Single-phase, Three-phase, and Trivector meters",
     "criteria": [
       {
-        "id": "EM-009-C1",
-        "title": "Tamper Detection",
-        "description": "Comprehensive tamper detection and logging capabilities",
+        "id": "NEMSA-009-C1",
+        "title": "Meter Accuracy & Certification",
+        "description": "Standards for all types of electricity meters used in Nigeria",
         "priority": "critical",
-        "category": "Security Features",
+        "category": "Metering Equipment",
         "requirements": [
-          "Magnetic field detection",
-          "Cover removal detection",
-          "Current bypass detection"
+          "Single-phase meter certification",
+          "Three-phase meter compliance",
+          "Trivector meter approval",
+          "Prepaid and postpaid system verification",
+          "Accuracy class compliance"
         ],
         "lastReviewed": "2024-01-15T09:40:00Z",
-        "documentLinks": ["tamper-detection-spec.pdf", "security-protocols.pdf"]
+        "documentLinks": ["meter-standards.pdf", "accuracy-requirements.pdf"]
       }
     ]
   },
   {
-    "id": "EM-010",
-    "name": "Outdoor Weather-Resistant Meters",
-    "category": "Environmental",
+    "id": "NEMSA-010",
+    "name": "Instrument Transformers (CTs & PTs)",
+    "category": "Metering & Measurement Tools",
     "status": "compliant",
-    "complianceRate": 90.3,
+    "complianceRate": 88.5,
     "lastUpdated": "2024-01-18T15:10:00Z",
-    "riskLevel": "low",
-    "description": "Weather-resistant meters designed for outdoor installation environments",
+    "riskLevel": "medium",
+    "description": "Current Transformers and Potential Transformers for accurate high-voltage metering and protection",
     "criteria": [
       {
-        "id": "EM-010-C1",
-        "title": "Environmental Protection",
-        "description": "Protection against environmental factors and weather conditions",
+        "id": "NEMSA-010-C1",
+        "title": "Instrument Transformer Standards",
+        "description": "Accuracy and safety requirements for CTs and PTs",
         "priority": "high",
-        "category": "Environmental Standards",
+        "category": "Measurement Instruments",
         "requirements": [
-          "IP65 ingress protection rating",
-          "Operating temperature -40°C to +70°C",
-          "UV radiation resistance"
+          "Current Transformer (CT) accuracy class",
+          "Potential Transformer (PT) ratio verification",
+          "Burden capacity testing",
+          "High-voltage insulation testing"
         ],
         "lastReviewed": "2024-01-16T12:55:00Z",
-        "documentLinks": ["ip-rating-standards.pdf", "environmental-testing.pdf"]
+        "documentLinks": ["ct-pt-standards.pdf", "transformer-testing.pdf"]
       }
     ]
   },
   {
-    "id": "EM-011",
-    "name": "Substation Revenue Meters",
-    "category": "Substation",
-    "status": "under-review",
-    "complianceRate": 74.8,
+    "id": "NEMSA-011",
+    "name": "Calibration Instruments",
+    "category": "Metering & Measurement Tools",
+    "status": "compliant",
+    "complianceRate": 90.7,
     "lastUpdated": "2024-01-20T14:35:00Z",
-    "riskLevel": "high",
-    "description": "High-precision revenue-grade meters for electrical substations",
+    "riskLevel": "low",
+    "description": "Voltmeters, Ammeters, Wattmeters, and Ohmmeters used by technicians must be NEMSA-calibrated",
     "criteria": [
       {
-        "id": "EM-011-C1",
-        "title": "Revenue Grade Accuracy",
-        "description": "Highest accuracy standards for revenue measurement applications",
-        "priority": "critical",
-        "category": "Revenue Measurement",
+        "id": "NEMSA-011-C1",
+        "title": "Calibration Standards",
+        "description": "NEMSA calibration requirements for measurement instruments",
+        "priority": "high",
+        "category": "Calibration",
         "requirements": [
-          "Accuracy class 0.2S or better",
-          "Burden verification capability",
-          "Revenue protection algorithms"
+          "Voltmeter calibration certification",
+          "Ammeter accuracy verification",
+          "Wattmeter calibration",
+          "Ohmmeter testing standards",
+          "Periodic recalibration schedule"
         ],
         "lastReviewed": "2024-01-18T13:15:00Z",
-        "documentLinks": ["revenue-grade-spec.pdf", "accuracy-verification.pdf"]
+        "documentLinks": ["calibration-standards.pdf", "instrument-accuracy.pdf"]
       }
     ]
   },
   {
-    "id": "EM-012",
-    "name": "Apartment Complex Sub-Meters",
-    "category": "Multi-Tenant",
+    "id": "NEMSA-012",
+    "name": "Control Panels & Switchgears",
+    "category": "Safety & Protection Equipment",
     "status": "compliant",
-    "complianceRate": 86.7,
+    "complianceRate": 87.3,
     "lastUpdated": "2024-01-15T16:40:00Z",
     "riskLevel": "medium",
-    "description": "Sub-metering solutions for apartment complexes and multi-tenant buildings",
+    "description": "Circuit breakers and switching equipment for electrical system protection",
     "criteria": [
       {
-        "id": "EM-012-C1",
-        "title": "Multi-Tenant Management",
-        "description": "Individual tenant billing and centralized management capabilities",
-        "priority": "high",
-        "category": "Multi-Tenant Features",
+        "id": "NEMSA-012-C1",
+        "title": "Switchgear Safety Standards",
+        "description": "Safety and operational requirements for control panels and switchgears",
+        "priority": "critical",
+        "category": "Protection Systems",
         "requirements": [
-          "Individual tenant data isolation",
-          "Centralized reading capability",
-          "Tenant usage reporting"
+          "Circuit breaker rating verification",
+          "Arc flash protection",
+          "Short circuit capacity testing",
+          "Panel enclosure safety standards"
         ],
         "lastReviewed": "2024-01-13T10:25:00Z",
-        "documentLinks": ["multi-tenant-spec.pdf", "data-isolation.pdf"]
+        "documentLinks": ["switchgear-standards.pdf", "circuit-breaker-specs.pdf"]
       }
     ]
   },
   {
-    "id": "EM-013",
-    "name": "Electric Vehicle Charging Meters",
-    "category": "EV Charging",
-    "status": "pending",
-    "complianceRate": 81.2,
+    "id": "NEMSA-013",
+    "name": "Protective Relays",
+    "category": "Safety & Protection Equipment",
+    "status": "compliant",
+    "complianceRate": 89.1,
     "lastUpdated": "2024-01-19T09:50:00Z",
-    "riskLevel": "medium",
-    "description": "Specialized meters for electric vehicle charging station applications",
+    "riskLevel": "low",
+    "description": "Devices that detect faults and trip the system to prevent fires and equipment damage",
     "criteria": [
       {
-        "id": "EM-013-C1",
-        "title": "EV Charging Standards",
-        "description": "Compliance with electric vehicle charging infrastructure standards",
+        "id": "NEMSA-013-C1",
+        "title": "Relay Protection Standards",
+        "description": "Performance and reliability requirements for protective relays",
         "priority": "high",
-        "category": "EV Infrastructure",
+        "category": "Fault Protection",
         "requirements": [
-          "OCPP (Open Charge Point Protocol) support",
-          "Dynamic load management",
-          "Session-based billing capability"
+          "Fault detection sensitivity",
+          "Trip time verification",
+          "Coordination with circuit breakers",
+          "Fire prevention compliance"
         ],
         "lastReviewed": "2024-01-17T11:40:00Z",
-        "documentLinks": ["ocpp-standards.pdf", "ev-charging-regs.pdf"]
+        "documentLinks": ["relay-standards.pdf", "fault-protection.pdf"]
       }
     ]
   },
   {
-    "id": "EM-014",
-    "name": "Data Center Power Meters",
-    "category": "Data Center",
+    "id": "NEMSA-014",
+    "name": "Earthing Systems",
+    "category": "Safety & Protection Equipment",
     "status": "compliant",
-    "complianceRate": 92.4,
+    "complianceRate": 91.8,
     "lastUpdated": "2024-01-16T13:20:00Z",
     "riskLevel": "low",
-    "description": "High-precision meters for data center power monitoring and management",
+    "description": "Grounding systems for buildings and transformers tested for low resistance to prevent electrocution",
     "criteria": [
       {
-        "id": "EM-014-C1",
-        "title": "Real-Time Monitoring",
-        "description": "Real-time power monitoring with high-frequency data sampling",
-        "priority": "high",
-        "category": "Data Center Operations",
+        "id": "NEMSA-014-C1",
+        "title": "Earthing & Grounding Standards",
+        "description": "Low resistance requirements for electrical grounding systems",
+        "priority": "critical",
+        "category": "Electrical Safety",
         "requirements": [
-          "Sub-second data sampling rate",
-          "Power usage effectiveness (PUE) calculation",
-          "Rack-level power monitoring"
+          "Earth resistance testing (< 5 ohms)",
+          "Building grounding certification",
+          "Transformer earthing verification",
+          "Electrocution prevention compliance"
         ],
         "lastReviewed": "2024-01-14T15:30:00Z",
-        "documentLinks": ["datacenter-monitoring.pdf", "pue-calculation.pdf"]
+        "documentLinks": ["earthing-standards.pdf", "grounding-requirements.pdf"]
       }
     ]
   },
   {
-    "id": "EM-015",
-    "name": "Temporary Construction Meters",
-    "category": "Temporary",
-    "status": "non-compliant",
-    "complianceRate": 69.1,
+    "id": "NEMSA-015",
+    "name": "Petrol/Filling Station Installations",
+    "category": "Hazardous & Specialized Locations",
+    "status": "compliant",
+    "complianceRate": 84.2,
     "lastUpdated": "2024-01-20T10:15:00Z",
     "riskLevel": "high",
-    "description": "Portable meters for temporary construction and event power supply",
+    "description": "All electrical work at fuel stations must be NEMSA-certified due to fire risk",
     "criteria": [
       {
-        "id": "EM-015-C1",
-        "title": "Portability Standards",
-        "description": "Rugged design for temporary installation and frequent relocation",
-        "priority": "medium",
-        "category": "Portability",
+        "id": "NEMSA-015-C1",
+        "title": "Hazardous Location Standards",
+        "description": "Specialized electrical requirements for petrol stations and fuel facilities",
+        "priority": "critical",
+        "category": "Hazardous Locations",
         "requirements": [
-          "Shock and vibration resistance",
-          "Quick-connect terminals",
-          "Theft prevention features"
+          "Explosion-proof equipment certification",
+          "Intrinsically safe wiring",
+          "Fire prevention systems",
+          "Emergency shutdown compliance"
         ],
         "lastReviewed": "2024-01-18T14:45:00Z",
-        "documentLinks": ["portable-meter-spec.pdf", "theft-prevention.pdf"]
+        "documentLinks": ["hazardous-location-standards.pdf", "fuel-station-electrical.pdf"]
       }
     ]
   },
   {
-    "id": "EM-016",
-    "name": "Marine and Offshore Meters",
-    "category": "Marine",
-    "status": "under-review",
-    "complianceRate": 72.5,
+    "id": "NEMSA-016",
+    "name": "Oil & Gas Facilities",
+    "category": "Hazardous & Specialized Locations",
+    "status": "compliant",
+    "complianceRate": 82.6,
     "lastUpdated": "2024-01-19T12:30:00Z",
     "riskLevel": "high",
-    "description": "Specialized meters for marine vessels and offshore installations",
+    "description": "Off-shore and on-shore flow stations, wells, and FPSO vessels electrical systems",
     "criteria": [
       {
-        "id": "EM-016-C1",
-        "title": "Marine Environment Protection",
-        "description": "Enhanced protection against marine environmental conditions",
+        "id": "NEMSA-016-C1",
+        "title": "Oil & Gas Electrical Standards",
+        "description": "Specialized requirements for petroleum industry electrical installations",
         "priority": "critical",
-        "category": "Marine Standards",
+        "category": "Petroleum Industry",
         "requirements": [
-          "Salt spray corrosion resistance",
-          "Vibration tolerance per marine standards",
-          "Explosive atmosphere certification"
+          "Off-shore platform certification",
+          "On-shore flow station compliance",
+          "FPSO vessel electrical systems",
+          "Well site electrical safety",
+          "Explosive atmosphere protection"
         ],
         "lastReviewed": "2024-01-17T16:20:00Z",
-        "documentLinks": ["marine-standards.pdf", "explosion-proof-cert.pdf"]
+        "documentLinks": ["oil-gas-standards.pdf", "offshore-electrical.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "NEMSA-017",
+    "name": "Solar Mini-Grids",
+    "category": "Hazardous & Specialized Locations",
+    "status": "under-review",
+    "complianceRate": 78.9,
+    "lastUpdated": "2024-01-21T09:15:00Z",
+    "riskLevel": "medium",
+    "description": "Decentralized rural and urban solar power systems - a newer NEMSA mandate",
+    "criteria": [
+      {
+        "id": "NEMSA-017-C1",
+        "title": "Solar Mini-Grid Standards",
+        "description": "Certification requirements for decentralized solar power installations",
+        "priority": "high",
+        "category": "Renewable Energy",
+        "requirements": [
+          "Solar panel certification",
+          "Battery storage system compliance",
+          "Inverter testing and approval",
+          "Grid interconnection standards",
+          "Rural electrification compliance"
+        ],
+        "lastReviewed": "2024-01-19T11:30:00Z",
+        "documentLinks": ["solar-minigrid-standards.pdf", "renewable-energy-regs.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "NEMSA-018",
+    "name": "Electrical Installation Contractors",
+    "category": "Personnel & Personnel Tools",
+    "status": "compliant",
+    "complianceRate": 86.4,
+    "lastUpdated": "2024-01-22T14:20:00Z",
+    "riskLevel": "medium",
+    "description": "Certification of contractors and engineers performing electrical installation work",
+    "criteria": [
+      {
+        "id": "NEMSA-018-C1",
+        "title": "Contractor Certification",
+        "description": "Professional qualification and licensing requirements for electrical contractors",
+        "priority": "critical",
+        "category": "Personnel Certification",
+        "requirements": [
+          "Professional qualification verification",
+          "NEMSA contractor license",
+          "Continuing education requirements",
+          "Insurance and bonding compliance",
+          "Criminal offense penalties for unlicensed work"
+        ],
+        "lastReviewed": "2024-01-20T10:45:00Z",
+        "documentLinks": ["contractor-licensing.pdf", "electricity-act-2023.pdf"]
+      }
+    ]
+  },
+  {
+    "id": "NEMSA-019",
+    "name": "Contractor Toolkits",
+    "category": "Personnel & Personnel Tools",
+    "status": "compliant",
+    "complianceRate": 88.7,
+    "lastUpdated": "2024-01-23T11:50:00Z",
+    "riskLevel": "low",
+    "description": "Physical tools used by contractors including insulation testers and earth resistance testers must be verified as accurate",
+    "criteria": [
+      {
+        "id": "NEMSA-019-C1",
+        "title": "Tool Verification Standards",
+        "description": "Accuracy and calibration requirements for contractor testing equipment",
+        "priority": "high",
+        "category": "Equipment Verification",
+        "requirements": [
+          "Insulation tester calibration",
+          "Earth resistance tester verification",
+          "Multimeter accuracy certification",
+          "Clamp meter testing",
+          "Periodic tool recertification"
+        ],
+        "lastReviewed": "2024-01-21T13:25:00Z",
+        "documentLinks": ["tool-calibration-standards.pdf", "equipment-verification.pdf"]
       }
     ]
   }
