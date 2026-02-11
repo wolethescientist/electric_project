@@ -1,4 +1,4 @@
-// Core data models for the NEMSA Electric Meter Portal
+// Core data models for the Electric Testing Facility
 
 export interface RegulationItem {
   id: string;

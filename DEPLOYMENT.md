@@ -1,6 +1,6 @@
-# Deployment Guide - NEMSA Electric Meter Portal
+# Deployment Guide - Electric Testing Facility
 
-This guide covers deploying the NEMSA Electric Meter Portal to Vercel with optimal performance configurations.
+This guide covers deploying the Electric Testing Facility to Vercel with optimal performance configurations.
 
 ## 🚀 Quick Deploy to Vercel
 

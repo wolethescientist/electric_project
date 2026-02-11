@@ -1,5 +1,5 @@
 /**
- * Data module exports for the NEMSA Electric Meter Portal
+ * Data module exports for the Electric Testing Facility
  */
 
 // Export all utility functions

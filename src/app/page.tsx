@@ -47,7 +47,7 @@ export default function Home() {
               <Shield className="w-12 h-12 sm:w-16 sm:h-16 text-blue-200 mb-4 sm:mb-0 sm:mr-4" aria-hidden="true" />
               <div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                  NEMSA Electric Meter Portal
+                  Electric Testing Facility
                 </h1>
                 <p className="text-base sm:text-lg text-blue-200 mt-2">
                   Safety, Quality and Efficient Service Delivery

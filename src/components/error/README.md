@@ -1,6 +1,6 @@
 # Error Handling and Loading States
 
-This directory contains comprehensive error handling and loading state components for the NEMSA Electric Meter Portal.
+This directory contains comprehensive error handling and loading state components for the Electric Testing Facility.
 
 ## Components
 

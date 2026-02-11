@@ -6,7 +6,7 @@ import metricsData from './metrics-data.json';
 import analyticsData from './analytics-data.json';
 
 /**
- * Data loading utilities for the NEMSA Electric Meter Portal
+ * Data loading utilities for the Electric Testing Facility
  */
 
 /**

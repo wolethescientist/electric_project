@@ -1,6 +1,6 @@
-# NEMSA Electric Meter Portal
+# Electric Testing Facility
 
-This is a [Next.js](https://nextjs.org) project for the Nigerian Electricity Management Services Agency (NEMSA) Electric Meter Regulation Portal, bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project for the Nigerian Electricity Management Services Agency (NEMSA) Electric Testing Facility, bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## About NEMSA
 

@@ -1,5 +1,5 @@
 /**
- * Performance optimization configuration for the NEMSA Electric Meter Portal
+ * Performance optimization configuration for the Electric Testing Facility
  */
 
 export const PERFORMANCE_CONFIG = {

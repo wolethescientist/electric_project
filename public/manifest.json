@@ -1,6 +1,6 @@
 {
-  "name": "NEMSA Electric Meter Portal",
-  "short_name": "NEMSA Portal",
+  "name": "Electric Testing Facility",
+  "short_name": "ETF Portal",
   "description": "Nigerian Electricity Management Services Agency - Safety, Quality and Efficient Service Delivery",
   "start_url": "/",
   "display": "standalone",

@@ -1,5 +1,5 @@
 /**
- * Accessibility utilities for the NEMSA Electric Meter Portal
+ * Accessibility utilities for the Electric Testing Facility
  */
 
 // Screen reader only text utility

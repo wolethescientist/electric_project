@@ -47,7 +47,7 @@ export default function Header() {
             <Link 
               href="/" 
               className="flex items-center space-x-3 hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-900 rounded-md p-1"
-              aria-label="NEMSA Electric Meter Portal - Go to homepage"
+              aria-label="Electric Testing Facility - Go to homepage"
             >
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md p-1">
                 <Image
@@ -60,11 +60,11 @@ export default function Header() {
                 />
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-xl font-bold leading-tight">NEMSA Electric Meter Portal</h1>
+                <h1 className="text-xl font-bold leading-tight">Electric Testing Facility</h1>
                 <p className="text-blue-200 text-sm">Safety, Quality and Efficient Service Delivery</p>
               </div>
               <div className="sm:hidden">
-                <h1 className="text-lg font-bold">NEMSA</h1>
+                <h1 className="text-lg font-bold">ETF</h1>
               </div>
             </Link>
           </div>

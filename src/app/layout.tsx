@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "NEMSA Electric Meter Portal",
+  title: "Electric Testing Facility",
   description: "Nigerian Electricity Management Services Agency (NEMSA) - Safety, Quality and Efficient Service Delivery. Monitor and manage electrical installations, meters and instruments compliance in Nigeria.",
   manifest: "/manifest.json",
   themeColor: "#3b82f6",
@@ -50,13 +50,13 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_NG',
     url: process.env.NEXT_PUBLIC_DOMAIN || 'https://nemsa-portal.gov.ng',
-    title: 'NEMSA Electric Meter Portal',
+    title: 'Electric Testing Facility',
     description: 'Nigerian Electricity Management Services Agency - Safety, Quality and Efficient Service Delivery',
-    siteName: 'NEMSA Electric Meter Portal',
+    siteName: 'Electric Testing Facility',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NEMSA Electric Meter Portal',
+    title: 'Electric Testing Facility',
     description: 'Nigerian Electricity Management Services Agency - Safety, Quality and Efficient Service Delivery',
   },
 };

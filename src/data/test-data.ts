@@ -15,7 +15,7 @@ import {
 } from './utils';
 
 export function testDataLoading() {
-  console.log('Testing NEMSA Electric Meter Portal Data Loading...\n');
+  console.log('Testing Electric Testing Facility Data Loading...\n');
 
   try {
     // Test regulation items loading
